@@ -1,0 +1,9 @@
+{
+  "build": {
+    "dockerfilePath": "Dockerfile"
+  },
+  "deploy": {
+    "startCommand": "langflow run",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
